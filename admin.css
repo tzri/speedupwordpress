@@ -1,0 +1,71 @@
+/**
+ * Speed Up WordPress plugin admin CSS rules
+ */
+ 
+.speedup-settings {
+	max-width: 640px;
+	background: white;
+	padding: 1em;
+	border-radius: 4px;
+}
+
+.speedup-settings table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.speedup-settings table tr th,
+.speedup-settings table tr td {
+	padding: 0.5em;
+}
+
+.first-header {
+	border-top-left-radius: 4px;
+}
+
+.last-header {
+	border-top-right-radius: 4px;
+}
+
+.speedup-settings table tr:nth-child(even) td {
+	background: #f7f7f7;
+}
+
+.speedup-settings table tr td.title {
+	font-weight: bold;
+	background: #fff3ff;
+}
+
+.speedup-settings table tr:nth-child(even) td.title {
+	background: #ffeeff;
+}
+
+.speedup-settings table tr th {
+	text-align: left;
+	background: #d7d;
+	color: white;
+}
+
+.speedup-settings .enabled {
+	display: block;
+	background: green;
+	color: white;
+	padding: 0.4em;
+	font-weight: bold;
+	border-radius: 16px;
+	text-align: center;
+}
+
+.speedup-settings .disabled {
+	display: block;
+	background: #900;
+	color: white;
+	padding: 0.4em;
+	border-radius: 16px;
+	text-align: center;
+}
+
+.speedup-notifications {
+	margin-bottom: 1em;
+	margin-left: -16px;
+}
